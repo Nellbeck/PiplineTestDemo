@@ -44,5 +44,5 @@ steps:
     ConnectionType: 'AzureRM'
     azureSubscription: 'ASP-AzurePiplineTest-9d32'
     appType: 'webApp'
-    WebAppName: 'pipesabc'
+    WebAppName: 'PiplineTestDemo'
     package: '$(build.artifactStagingDirectory)/WebApp.zip'
