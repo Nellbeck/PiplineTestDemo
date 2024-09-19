@@ -44,5 +44,5 @@ steps:
     ConnectionType: 'AzureRM'
     azureSubscription: 'Azure for Students(ba2504cf-22fd-481d-b6bf-f6cb5b8f5308)'
     appType: 'webApp'
-    WebAppName: 'PiplineTestProject'
+    WebAppName: 'OhojTestPipline'
     package: '$(build.artifactStagingDirectory)/WebApp.zip'
