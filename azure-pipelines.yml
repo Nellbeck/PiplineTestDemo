@@ -42,7 +42,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'ASP-AzurePiplineTest-9d32'
+    azureSubscription: 'Azure for Students(ba2504cf-22fd-481d-b6bf-f6cb5b8f5308)'
     appType: 'webApp'
     WebAppName: 'PiplineTestDemo'
     package: '$(build.artifactStagingDirectory)/WebApp.zip'
